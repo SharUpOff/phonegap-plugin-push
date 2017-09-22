@@ -427,7 +427,7 @@ public class FCMService extends FirebaseMessagingService implements PushConstant
          * To use, add the `iconColor` key to plugin android options
          *
          */
-        setNotificationIconColor(extras.getString("color"), mBuilder, localIconColor);
+        setNotificationIconColor(extras.getString(COLOR), mBuilder, localIconColor);
 
         /*
          * Notification Icon
